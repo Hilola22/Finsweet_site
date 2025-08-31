@@ -56,7 +56,7 @@ const Contact = () => {
             ></textarea>
           </div>
 
-          <div>
+          <div className="col-span-2 flex mt-4">
             <button className="bg-gray-800 text-white px-16 py-3 rounded-[41px] hover:bg-gray-900 transition duration-300">
               Send Message
             </button>
