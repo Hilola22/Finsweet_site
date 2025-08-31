@@ -5,18 +5,22 @@ import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
 const Footer = () => {
   return (
     <footer className="bg-[#1C1E53] text-white">
-      <div className="container mx-auto px-6 py-16 flex md:flex-row justify-between gap-[149px]">
+      <div className="container mx-auto px-6 py-16 flex justify-between gap-[149px]">
         <div className="max-w-md">
-          <img src={logo} alt="Logo" className="mb-6 " />
-          <p className="text-[#BBBBCB] mb-[86px]">
+          <img src={logo} alt="Logo" className="mb-6 mt-3" />
+          <p className="text-[#BBBBCB] mb-[100px]">
             We are always open to discuss your project and improve your online
             presence.
           </p>
-          <div className="bg-[#FCD980] text-[#1C1E53] p-6 w-[517px] h-[95px]">
-            <h4 className="font-semibold mb-2">Email us at</h4>
-            <p>contact@website.com</p>
-            <h4 className="font-semibold mt-4 mb-2">Call us</h4>
-            <p>+998 (90) 123-45-67</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-[#FCD980] text-[#1C1E53] p-6 w-[517px] h-[95px]">
+            <div>
+              <h4 className="font-semibold">Email us at</h4>
+              <p>contact@website.com</p>
+            </div>
+            <div>
+              <h4 className="font-semibold">Call us</h4>
+              <p>0927 6277 28525</p>
+            </div>
           </div>
         </div>
         <div className="flex-1">
@@ -41,7 +45,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      
     </footer>
   );
 };
