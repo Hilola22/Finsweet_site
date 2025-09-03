@@ -8,6 +8,7 @@ import Pricing from "./pages/pricing/Pricing";
 import Work from "./pages/work/Work";
 import Blog from "./pages/blog/Blog";
 import Contact from "./pages/contact/Contact";
+import NotFound from "./pages/not-found/NotFound";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/work" element={<Work />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />
