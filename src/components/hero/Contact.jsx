@@ -17,7 +17,7 @@ const Contact = () => {
             <input
               type="text"
               placeholder="Enter your name"
-              className="border rounded-[6px] p-3 focus:outline-none "
+              className="border  border-gray-300 rounded-[6px] p-3 focus:outline-none "
             />
           </div>
 
@@ -26,7 +26,7 @@ const Contact = () => {
             <input
               type="email"
               placeholder="Enter your email"
-              className="border rounded-md p-3 focus:outline-none"
+              className="border  border-gray-300 rounded-md p-3 focus:outline-none"
             />
           </div>
 
@@ -35,13 +35,13 @@ const Contact = () => {
             <input
               type="text"
               placeholder="Provide context"
-              className="border rounded-md p-3 focus:outline-none"
+              className="border  border-gray-300 rounded-md p-3 focus:outline-none"
             />
           </div>
 
           <div className="flex flex-col">
             <label className="mb-2 font-medium ">Subject</label>
-            <select className="border rounded-md p-3 focus:outline-none">
+            <select className="border  border-gray-300 rounded-md p-3 focus:outline-none">
               <option>Select Subject</option>
               <option>Support</option>
               <option>Feedback</option>
@@ -52,7 +52,7 @@ const Contact = () => {
             <label className="mb-2 font-medium ">Message</label>
             <textarea
               placeholder="Write your question here"
-              className="border rounded-md p-3 h-32 resize-none focus:outline-none "
+              className="border  border-gray-300 rounded-md p-3 h-32 resize-none focus:outline-none "
             ></textarea>
           </div>
 
